@@ -1,0 +1,71 @@
+html {
+    font-family: "Montserrat";
+    background-image: linear-gradient(to bottom left,#b852c1,#5657cd);
+}
+
+table {
+    table-layout: auto;
+    width: 60%;
+    margin-top:5%;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+thead th{
+    font-family: "Montserrat";
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+th:first-of-type {
+    border-top-left-radius: 10px;
+}
+th:last-of-type {
+    border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+}
+
+tbody td{
+    font-family: "Montserrat";
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th {
+    align-items: center;
+    color:white;
+}
+
+td {
+    align-items: center;
+    color: black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+thead tr {
+    background-color: #362f4b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
